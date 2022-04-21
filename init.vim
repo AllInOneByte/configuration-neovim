@@ -16,8 +16,6 @@ set wildignore+=*/node_modules/*
 
 autocmd InsertLeave * set nopaste
 
-nnoremap ; :
-inoremap jj <esc>
 
 runtime ./plug.vim
 if has("unix")
@@ -26,5 +24,6 @@ endif
 if has("win32")
   runtime ./windows.vim
 endif
+runtime ./maps.vim
 
 let g:defx_icons_column_length = 2
