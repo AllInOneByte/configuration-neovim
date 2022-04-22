@@ -17,9 +17,13 @@ if has("nvim")
 	Plug 'kyazdani42/nvim-web-devicons'
 	Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 	Plug 'kristijanhusak/defx-icons'
+	Plug 'kristijanhusak/defx-git'
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'williamboman/nvim-lsp-installer'
 	Plug 'windwp/nvim-autopairs'
+	Plug 'folke/lsp-colors.nvim'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-lua/popup.nvim'
 " 	Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 endif
 
