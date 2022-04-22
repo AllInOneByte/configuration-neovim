@@ -20,10 +20,18 @@ if has("nvim")
 	Plug 'kristijanhusak/defx-git'
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'williamboman/nvim-lsp-installer'
+	Plug 'hrsh7th/cmp-nvim-lsp'
+	Plug 'hrsh7th/cmp-buffer'
+	Plug 'hrsh7th/nvim-cmp'
 	Plug 'windwp/nvim-autopairs'
 	Plug 'folke/lsp-colors.nvim'
+	Plug 'onsails/lspkind-nvim'
+	Plug 'tami5/lspsaga.nvim'
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'nvim-lua/popup.nvim'
+	Plug 'L3MON4D3/LuaSnip'
+	Plug 'windwp/nvim-ts-autotag'
+	Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 " 	Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 endif
 

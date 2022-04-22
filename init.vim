@@ -16,7 +16,6 @@ set wildignore+=*/node_modules/*
 
 autocmd InsertLeave * set nopaste
 
-
 runtime ./plug.vim
 if has("unix")
   runtime ./unix.vim

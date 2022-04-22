@@ -3,7 +3,9 @@ if (not status) then return end
 
 lualine.setup {
   options = {
-    theme = 'codedark'
+    icons_enabled = true,
+    theme = 'codedark',
+    always_divide_middle = false
   },
   sections = {
     lualine_c = {{
