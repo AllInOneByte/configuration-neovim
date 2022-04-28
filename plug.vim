@@ -32,6 +32,7 @@ if has("nvim")
 	Plug 'L3MON4D3/LuaSnip'
 	Plug 'windwp/nvim-ts-autotag'
 	Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+	Plug 'EdenEast/nightfox.nvim'
 " 	Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 endif
 
