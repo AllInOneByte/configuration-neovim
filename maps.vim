@@ -1,4 +1,7 @@
 nnoremap <Tab> :buffer<Space>
+nnoremap -d :bd<CR>
+nnoremap -n :bn<CR>
+nnoremap -p :bp<CR>
 
-nmap ss :split<Return><C-w>w
-nmap sv :vsplit<Return><C-w>
+nmap ss :split<CR><C-w>w
+nmap sv :vsplit<CR><C-w>
