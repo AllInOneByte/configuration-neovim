@@ -1,4 +1,3 @@
-nnoremap <Tab> :buffer<Space>
 nnoremap -d :bd<CR>
 nnoremap -n :bn<CR>
 nnoremap -p :bp<CR>
