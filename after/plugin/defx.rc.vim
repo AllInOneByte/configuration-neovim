@@ -20,6 +20,8 @@ autocmd FileType defx call s:defx_my_settings()
       \ defx#do_action('paste')
     nnoremap <silent><buffer><expr> E
       \ defx#do_action('open', 'vsplit')
+    nnoremap <silent><buffer><expr> e
+      \ defx#do_action('open', 'split')
     nnoremap <silent><buffer><expr> o
       \ defx#do_action('open_or_close_tree')
     nnoremap <silent><buffer><expr> K
